@@ -1,78 +1,73 @@
-# 👋 Hi, I'm Pavithra Rajkumar
+# Pavithra Rajkumar
+### Machine Learning Engineer — Personalization & Recommendation Systems
 
-🚀 **Aspiring AI/ML Engineer**  
-💡 Passionate about building intelligent systems using data and machine learning  
-
----
-
-## 🧠 About Me
-- 🎓 Focused on **Machine Learning, Deep Learning & Data Science**
-- 🤖 Interested in building **AI-powered real-world applications**
-- 📊 Strong interest in **Recommendation Systems & Predictive Modeling**
-- 🔍 Continuously learning and exploring new AI technologies
-
----
-## 🚀 Projects
-
-### 🔹 Hybrid Recommendation System
-A movie recommendation system combining multiple approaches:
-- 🎯 Content-Based Filtering (TF-IDF)
-- 🤝 Collaborative Filtering
-- ⚖️ Hybrid weighted model  
-
-📌 Features:
-- Personalized recommendations  
-- FastAPI backend  
-- Streamlit frontend  
-- Dockerized deployment  
+India  |  pavithrarajkumar95@gmail.com  |  [LinkedIn](https://linkedin.com/in/pavithra-rajkumar1995)
 
 ---
 
-### 🔹 Customer Churn Prediction
-A machine learning model to predict customer churn:
-- 📊 Data preprocessing & feature engineering  
-- 🤖 Classification models (Logistic Regression / others)  
-- 📈 Model evaluation using performance metrics  
-- 💡 Helps businesses reduce customer loss  
+## About
+
+I build end-to-end machine learning systems focused on personalization, ranking, and recommendation problems.
+
+My recent work includes a production-deployed hybrid recommendation engine that improved Precision@10 from 9.1% to 41.4% (~4.5x), combining content-based filtering and collaborative filtering with a FastAPI serving layer on AWS.
+
+Currently completing a deep learning curriculum (Neural Networks → CNNs → RNNs) with the goal of applying sequential models to user behavior and recommendation problems.
+
+Pursuing an Executive Diploma in AI & ML at IIIT Bangalore.
 
 ---
 
-## 🛠️ Skills
+## Projects
 
-### 💻 Programming
-- Python 🐍
-- SQL
+### Hybrid Recommendation System
+> End-to-end ML system for personalized recommendations
 
-### 🤖 Machine Learning & Data Science
-- Scikit-learn
-- Pandas & NumPy
-- Data Preprocessing & Feature Engineering
-- Model Evaluation (Precision, Recall, MAP)
+- Combined TF-IDF content-based filtering with collaborative filtering in a hybrid ranking model
+- Improved Precision@10 from 9.1% to 41.4% (~4.5x improvement)
+- Built real-time inference REST API with FastAPI, containerized with Docker, deployed on AWS EC2
+- Full pipeline: data ingestion → feature engineering → model training → evaluation → production deployment
 
-### 🧠 AI Concepts
-- Recommendation Systems (Hybrid, Content-Based, Collaborative)
-- Classification Models
-- TF-IDF & Cosine Similarity
-
-### 🌐 Tools & Technologies
-- FastAPI ⚡
-- Streamlit 🎈
-- Docker 🐳
-- Git & GitHub
+`Python` `Scikit-learn` `Pandas` `FastAPI` `Docker` `AWS EC2`
 
 ---
 
+### Traffic Collision Analysis — California Dataset
+> Large-scale distributed data processing with PySpark
 
+- Merged and processed large-scale California traffic collision datasets using PySpark
+- Performed distributed EDA to identify collision patterns, high-risk zones, and temporal trends
+- Applied PySpark joins, aggregations, and transformations at scale
 
-## 📈 GitHub Stats
-[![Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)](https://github.com/PavithraRajkumar95)
-
----
-
-## 🌐 Connect With Me
-- 💼 LinkedIn: [https://linkedin.com/in/YOUR_LINK  ](https://www.linkedin.com/in/pavithra-gowda-288303116/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3Bderzew1YSK6oeXPaNhI74w%3D%3D)
-- 📧 Email: pavithrarajkumar95@gmail.com
+`Python` `PySpark` `Pandas`
 
 ---
 
-## ⚡ Currently seeking oppurtunities in AI/ML and Data Science
+### Customer Churn Prediction
+> Supervised ML system with explainability focus
+
+- Feature engineering and EDA on structured customer data
+- Trained classification models optimized for recall to minimize missed at-risk users
+- Applied feature importance analysis for model explainability
+- Reusable modular pipeline for preprocessing and training
+
+`Python` `Scikit-learn` `Pandas`
+
+---
+
+## Skills
+
+| Area | Technologies |
+|---|---|
+| Languages | Python, SQL, PySpark, Git |
+| ML & AI | Supervised Learning, Recommendation Systems, Collaborative Filtering, Neural Networks, CNNs, RNNs |
+| Frameworks | Scikit-learn, Pandas, NumPy, PyTorch (learning) |
+| Systems | FastAPI, Docker, AWS EC2, REST APIs, End-to-End ML Pipelines |
+| Evaluation | Precision@K, Recall, AUC-ROC, Feature Importance |
+
+---
+
+## Currently
+
+- Completing deep learning coursework: Neural Networks → CNNs → RNNs
+- Exploring neural collaborative filtering and sequential recommendation models
+- Applying for ML Engineering internships focused on personalization at scale
